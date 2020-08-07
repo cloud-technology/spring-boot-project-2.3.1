@@ -3,6 +3,17 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.cloud-technology</groupId>
+    <artifactId>spring-boot-project-2.3.1</artifactId>
+    <version>1.0.1.RELEASE</version>
+    <packaging>pom</packaging>
+    <name>spring-boot-project-2.3.1</name>
+    <organization>
+      <name>Cloud-Technology</name>
+      <url>https://github.com/Cloud-Technology</url>
+   </organization>     
+         
+         
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
