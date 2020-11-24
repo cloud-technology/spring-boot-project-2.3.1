@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.cloud-technology</groupId>
     <artifactId>spring-boot-project-2.3.1</artifactId>
-    <version>1.0.1.RELEASE</version>
+    <version>1.0.2.RELEASE</version>
     <packaging>pom</packaging>
     <name>spring-boot-project-2.3.1</name>
     <organization>
@@ -41,6 +41,7 @@
         <commons-io.version>2.6</commons-io.version>
         <commons-math3.version>3.6.1</commons-math3.version>
         <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
+        <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
     </properties>
 
     <dependencyManagement>
@@ -181,5 +182,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>${logstash-logback-encoder.version}</version>
+        </dependency>        
     </dependencies>
 </project>
